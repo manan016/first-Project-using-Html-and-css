@@ -1,5 +1,36 @@
 body{
-    background-color: #414141;
     color: white;
     font-family: Arial, sans-serif;
+}
+body h1 {
+    font-size: 32pt;
+    font-family: century gothic;
+    text-align: center;
+    color: black;
+}
+body hr {
+    width: 80%;
+    height: 3px;
+    color: black;
+
+}
+body table {
+    width: 80%;
+    cellspacing: 15;
+    cell padding: 10;
+}
+body th{
+
+
+
+}
+
+body td {
+    padding: 10px;
+    text-align: center;
+}
+body img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
 }
