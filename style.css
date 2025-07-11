@@ -1,6 +1,7 @@
 body{
-    color: white;
+    color: black;
     font-family: Arial, sans-serif;
+    background-color: oklab(79.682% 0.04541 0.01484 / 0.321);
 }
 body h1 {
     font-size: 32pt;
@@ -30,7 +31,17 @@ body td {
     text-align: center;
 }
 body img {
-    width: 100%;
-    max-width: 500px;
-    height: auto;
+    width: 250px;
+    max-width: 400px;
+    height:300px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.nevigation {
+  background-color: #2d98da;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  color: white;
 }

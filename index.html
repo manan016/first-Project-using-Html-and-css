@@ -1,31 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Empire Magazine</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Highest Grossing Animated Films</title>
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* 🔝 Navbar */
+.navbar {
+  background-color: #2d98da;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  color: white;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+
+/* 💬 Hero */
+.hero {
+  background-color: #74b9ff;
+  text-align: center;
+  padding: 60px 20px;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2em;
+}
+
+/* 🌟 Highlights */
+.highlights {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.highlight-box {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 250px;
+}
+
+.highlight-box h2 {
+  color: #2d98da;
+  margin-bottom: 10px;
+}
+
+/* 🔚 Footer */
+footer {
+  background: #eee;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+  </style>
 </head>
 <body>
-         <center>
-            <img src="https://media.istockphoto.com/id/503245924/photo/i-love-meat.jpg?s=612x612&w=0&k=20&c=IPXb0Z0CoglRY3v1zc9ebg6UCW4WXX0CTR3LgCTaCS0=" alt="I Love Meat" style="width: 100%; max-width: 500px; height: auto;">
-            <h1> Highest Grossing Animated Films</h1>
-            <hr>
-            <table>
-                <tr>
-                    <tr>
-                        <th><img src="pic1.jpg" alt="there is no picture"></th>
-                        <th>Title</th>
-                        <th>Year</th>
-                        <th>Gross</th>
-                        <th>Studio</th>
-                    </tr>
-                </tr>
-            </table>
 
+  <!-- 🔝 Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo">🎬 Animated Films</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="contentindex.html">Films</a></li>
+      <li><a href="aboutindex.html">About</a></li>
+      <li><a href="contactindex.html">Contact</a></li>
+    </ul>
+  </nav>
 
+  <!-- 💬 Hero Section -->
+  <header class="hero">
+    <h1>Welcome to the World of Animation</h1>
+    <p>Discover the highest-grossing animated movies of all time!</p>
+  </header>
 
-         </center>
-    
+  <!-- 🌟 Highlights -->
+  <section class="highlights">
+    <div class="highlight-box">
+      <h2>Top Film</h2>
+      <p>The Lion King (2019) – $1.66 Billion</p>
+    </div>
+    <div class="highlight-box">
+      <h2>Recent Hit</h2>
+      <p>Frozen II (2019) – $1.45 Billion</p>
+    </div>
+    <div class="highlight-box">
+      <h2>Fan Favorite</h2>
+      <p>Incredibles 2 (2018) – $1.24 Billion</p>
+    </div>
+  </section>
+
+  <!-- 🔚 Footer -->
+  <footer>
+    <p>© 2025 Abdul Manan Katpar | All Rights Reserved</p>
+  </footer>
+
 </body>
 </html>

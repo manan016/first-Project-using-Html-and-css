@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Top Animated Films</title>
+  <style>
+    body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fafafa;
+  color: #333;
+}
+
+header {
+  background-color: #2d98da;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.film-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  padding: 40px;
+}
+
+.film-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.film-card:hover {
+  transform: translateY(-5px);
+}
+
+.film-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #eee;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🎬 Highest Grossing Animated Films</h1>
+  </header>
+
+  <main class="film-grid">
+    <!-- Film Card -->
+    <div class="film-card">
+      <img src="frozen2.jpg" alt="Frozen II">
+      <h2>Frozen II</h2>
+      <p><strong>Box Office:</strong> $1.45 Billion</p>
+      <p><strong>Year:</strong> 2019</p>
+    </div>
+
+    <!-- Add more film cards below -->
+    <div class="film-card">
+      <img src="incredibles2.jpg" alt="Incredibles 2">
+      <h2>Incredibles 2</h2>
+      <p><strong>Box Office:</strong> $1.24 Billion</p>
+      <p><strong>Year:</strong> 2018</p>
+    </div>
+
+    <!-- Repeat for more films -->
+  </main>
+
+  <footer>
+    <p>© 2025 Abdul Manan Katpar | All rights reserved.</p>
+  </footer>
+</body>
+</html>
